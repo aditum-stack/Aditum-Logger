@@ -1,5 +1,5 @@
-# Log-aditum
+# Aditum Log
 
-> Logger analysis server for Aditum
+> Log analysis server for Aditum
 
 -------------------------------------------------------------------------------
