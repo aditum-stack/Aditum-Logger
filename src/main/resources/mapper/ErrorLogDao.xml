@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ten.aditum.logger.mapper.ErrorLogDao">
+
+    <!--auto generated Code-->
+    <resultMap id="AllColumnMap" type="com.ten.aditum.logger.entity.ErrorLog">
+        <result column="id" property="id"/>
+        <result column="log_tag" property="logTag"/>
+        <result column="log_msg" property="logMsg"/>
+        <result column="log_time" property="logTime"/>
+        <result column="log_status" property="logStatus"/>
+        <result column="is_deleted" property="isDeleted"/>
+    </resultMap>
+
+    <!--auto generated Code-->
+    <sql id="all_column">
+        id,
+        log_tag,
+        log_msg,
+        log_time,
+        log_status,
+        is_deleted
+    </sql>
+
+    <!--auto generated Code-->
+    <insert id="insert">
+        INSERT INTO error_log
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id != null">id,</if>
+            <if test="pojo.logTag != null">log_tag,</if>
+            <if test="pojo.logMsg != null">log_msg,</if>
+            <if test="pojo.logTime != null">log_time,</if>
+            <if test="pojo.logStatus != null">log_status,</if>
+            <if test="pojo.isDeleted != null">is_deleted,</if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id != null">#{pojo.id},</if>
+            <if test="pojo.logTag != null">#{pojo.logTag},</if>
+            <if test="pojo.logMsg != null">#{pojo.logMsg},</if>
+            <if test="pojo.logTime != null">#{pojo.logTime},</if>
+            <if test="pojo.logStatus != null">#{pojo.logStatus},</if>
+            <if test="pojo.isDeleted != null">#{pojo.isDeleted},</if>
+        </trim>
+    </insert>
+
+    <!--auto generated Code-->
+    <insert id="insertList">
+        INSERT INTO error_log(
+        <include refid="all_column"/>
+        )VALUES
+        <foreach collection="pojos" item="pojo" index="index" separator=",">
+            (
+            #{pojo.id},
+            #{pojo.logTag},
+            #{pojo.logMsg},
+            #{pojo.logTime},
+            #{pojo.logStatus},
+            #{pojo.isDeleted}
+            )
+        </foreach>
+    </insert>
+
+    <!--auto generated Code-->
+    <update id="update">
+        UPDATE error_log
+        <set>
+            <if test="pojo.id != null">id = #{pojo.id},</if>
+            <if test="pojo.logTag != null">log_tag = #{pojo.logTag},</if>
+            <if test="pojo.logMsg != null">log_msg = #{pojo.logMsg},</if>
+            <if test="pojo.logTime != null">log_time = #{pojo.logTime},</if>
+            <if test="pojo.logStatus != null">log_status = #{pojo.logStatus},</if>
+            <if test="pojo.isDeleted != null">is_deleted = #{pojo.isDeleted}</if>
+        </set>
+        WHERE id = #{pojo.id}
+    </update>
+
+    <!--auto generated Code-->
+    <select id="select" resultMap="AllColumnMap">
+        SELECT
+        <include refid="all_column"/>
+        FROM error_log
+        <where>
+            <if test="pojo.id != null">AND id = #{pojo.id}</if>
+            <if test="pojo.logTag != null">AND log_tag = #{pojo.logTag}</if>
+            <if test="pojo.logMsg != null">AND log_msg = #{pojo.logMsg}</if>
+            <if test="pojo.logTime != null">AND log_time = #{pojo.logTime}</if>
+            <if test="pojo.logStatus != null">AND log_status = #{pojo.logStatus}</if>
+            <if test="pojo.isDeleted != null">AND is_deleted = #{pojo.isDeleted}</if>
+        </where>
+        LIMIT 1000
+    </select>
+
+    <!--auto generated Code-->
+    <delete id="delete">
+        DELETE FROM error_log where id = #{pojo.id}
+    </delete>
+</mapper>
