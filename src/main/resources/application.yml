@@ -1,0 +1,19 @@
+server:
+  tomcat:
+    max-threads: 800
+    uri-encoding: UTF-8
+  port: 9003
+
+spring:
+  # 设置数据库访问信息
+  datasource:
+    name: aditum
+    url: jdbc:mysql://47.100.236.64:3306/aditum_log
+    username: root
+    password: wangshihao
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapperLocations: classpath*:mapper/*.xml
+  typeAliasesPackage: com.ten.aditum.logger.entity
