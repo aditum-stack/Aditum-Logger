@@ -40,7 +40,7 @@ public class MapReduceErrorAnalyzer extends Configured implements Tool {
     /**
      * 每天2点分析ERROR日志
      */
-    @Scheduled(cron = ScheduleConstants.TEST_TIME)
+    @Scheduled(cron = ScheduleConstants.TIME)
     public void analyze() throws Exception {
         for (int i = 0; i < SqoopConstants.FLUME_LOG_PATHS2.length; i++) {
             String[] args = new String[]{
@@ -103,7 +103,10 @@ public class MapReduceErrorAnalyzer extends Configured implements Tool {
                 String visitTime = log1[0].substring(0, 20);
                 // 分析第二段
                 String[] split2 = log1[1].split(" ");
-                String errorMsg = split2[2].substring(0, 100);
+                String errorMsg = split2[2];
+                if (errorMsg.length() > 100) {
+                    errorMsg = errorMsg.substring(0, 100);
+                }
                 ErrorLog errorLog = new ErrorLog()
                         .setLogTag("Error")
                         .setLogMsg(errorMsg)

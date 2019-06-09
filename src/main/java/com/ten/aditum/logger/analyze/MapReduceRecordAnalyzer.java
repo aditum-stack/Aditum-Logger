@@ -38,7 +38,7 @@ public class MapReduceRecordAnalyzer extends Configured implements Tool {
     /**
      * 每天2点分析ERROR日志
      */
-    @Scheduled(cron = ScheduleConstants.TIME)
+//    @Scheduled(cron = ScheduleConstants.TIME)
     public void analyze() throws Exception {
         for (int i = 0; i < SqoopConstants.FLUME_LOG_PATHS.length; i++) {
             String[] args = new String[]{

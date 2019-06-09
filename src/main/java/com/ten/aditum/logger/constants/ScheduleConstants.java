@@ -8,8 +8,8 @@ public interface ScheduleConstants {
     String TEST_TIME = "0 0/1 * * * ?";
 
     /**
-     * 每天1点
+     * 每天5点
      */
-    String TIME = "0 0 1 1/1 * ?";
+    String TIME = "0 0 5 1/1 * ?";
 
 }

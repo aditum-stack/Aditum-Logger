@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f61608-1d21-4214-8958-213417d4311b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/constants/ScheduleConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/constants/SqoopConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/.part-r-00000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/part-r-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/AditumLoggerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/AditumLoggerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceErrorAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceErrorAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceLogAnalyzer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceLogAnalyzer2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceRecordAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceRecordAnalyzer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,12 +18,21 @@
       <file leaf-file-name="MapReduceErrorAnalyzer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceErrorAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+            <state relative-caret-position="69">
+              <caret line="102" column="60" lean-forward="true" selection-start-line="102" selection-start-column="60" selection-end-line="102" selection-end-column="60" />
               <folding>
                 <element signature="e#2971#2972#0" expanded="true" />
                 <element signature="e#3039#3040#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -55,18 +50,6 @@
                 <element signature="e#620#621#0" expanded="true" />
                 <element signature="e#660#661#0" expanded="true" />
                 <element signature="e#707#708#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapReduceRecordAnalyzer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceRecordAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,12 +169,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceLogAnalyzer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceLogAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/constants/ScheduleConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceRecordAnalyzer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/AditumLoggerApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/constants/SqoopConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceErrorAnalyzer.java" />
       </list>
     </option>
@@ -516,7 +499,7 @@
       <option name="presentableId" value="Default" />
       <updated>1539605862425</updated>
       <workItem from="1560045580193" duration="1872000" />
-      <workItem from="1560054541689" duration="15938000" />
+      <workItem from="1560054541689" duration="16243000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1539611948674</created>
@@ -539,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560096865692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="error log">
+      <created>1560101999792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560101999793</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17810000" />
+    <option name="totallyTimeSpent" value="18115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -569,10 +559,10 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4800591" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.562777" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32791728" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24089068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24089068" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
@@ -598,7 +588,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="crawler" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="error log" />
+    <option name="LAST_COMMIT_MESSAGE" value="error log" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Readme.md">
@@ -803,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -876,17 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/AditumLoggerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/constants/SqoopConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -910,10 +883,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/AditumLoggerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/logger/analyze/MapReduceErrorAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+        <state relative-caret-position="69">
+          <caret line="102" column="60" lean-forward="true" selection-start-line="102" selection-start-column="60" selection-end-line="102" selection-end-column="60" />
           <folding>
             <element signature="e#2971#2972#0" expanded="true" />
             <element signature="e#3039#3040#0" expanded="true" />
