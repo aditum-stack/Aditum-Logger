@@ -104,8 +104,8 @@ public class MapReduceErrorAnalyzer extends Configured implements Tool {
                 // 分析第二段
                 String[] split2 = log1[1].split(" ");
                 String errorMsg = split2[2];
-                if (errorMsg.length() > 100) {
-                    errorMsg = errorMsg.substring(0, 100);
+                if (errorMsg.length() > 500) {
+                    errorMsg = errorMsg.substring(0, 500);
                 }
                 ErrorLog errorLog = new ErrorLog()
                         .setLogTag("Error")
